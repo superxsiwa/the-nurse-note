@@ -1,7 +1,7 @@
 # แผนภาพส่วนประกอบของระบบ (Components Diagram)
-## โครงการ: The Note Nurse (เพื่อนคู่คิดและพี่เลี้ยงพยาบาลอัจฉริยะ)
+## โครงการ: The Nurse Note (เพื่อนคู่คิดและพี่เลี้ยงพยาบาลอัจฉริยะ)
 
-เอกสารนี้อธิบายสถาปัตยกรรมเชิงส่วนประกอบ (Component Architecture) ของระบบ **The Note Nurse** โดยแบ่งตามระดับชั้นการทำงาน (Tiered Architecture) พร้อมระบบรักษาความปลอดภัยและการปกป้องข้อมูลส่วนบุคคล (PDPA Compliance)
+เอกสารนี้อธิบายสถาปัตยกรรมเชิงส่วนประกอบ (Component Architecture) ของระบบ **The Nurse Note** โดยแบ่งตามระดับชั้นการทำงาน (Tiered Architecture) พร้อมระบบรักษาความปลอดภัยและการปกป้องข้อมูลส่วนบุคคล (PDPA Compliance)
 
 ---
 
@@ -158,5 +158,4 @@ graph TD
 
 ---
 
-*แผนภาพและโครงสร้างส่วนประกอบนี้ ออกแบบเพื่อให้สอดรับกับข้อกำหนด [REQUIREMENT_AND_SCOPE.md](file:///home/superx-desktop/Documents/0_app_projects/the-note-nurse/documents/REQUIREMENT_AND_SCOPE.md) อย่างสมบูรณ์*
-
+*แผนภาพและโครงสร้างส่วนประกอบนี้ ออกแบบเพื่อให้สอดรับกับข้อกำหนด [REQUIREMENT_AND_SCOPE.md](REQUIREMENT_AND_SCOPE.md) อย่างสมบูรณ์*

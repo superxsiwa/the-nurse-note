@@ -1,6 +1,6 @@
 {
-  "name": "The Note Nurse",
-  "short_name": "NoteNurse",
+  "name": "The Nurse Note",
+  "short_name": "NurseNote",
   "description": "ระบบบันทึกและสรุปข้อมูลส่งเวรพยาบาลด้วยเสียงและ AI",
   "start_url": "/",
   "display": "standalone",
@@ -14,4 +14,3 @@
     }
   ]
 }
-

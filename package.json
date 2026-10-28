@@ -1,5 +1,5 @@
 {
-  "name": "the-note-nurse",
+  "name": "the-nurse-note",
   "version": "1.0.0",
   "description": "Smart Voice & AI Clinical Handover Note App for Nurses",
   "main": "server.js",

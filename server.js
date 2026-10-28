@@ -344,5 +344,5 @@ function parseMedicalSpeech(rawText, bed) {
 }
 
 server.listen(PORT, '0.0.0.0', () => {
-  console.log(`The Note Nurse running on http://localhost:${PORT} (Gemini AI: ${GEMINI_API_KEY ? 'Active' : 'Offline/Fallback'})`);
+  console.log(`The Nurse Note running on http://localhost:${PORT} (Gemini AI: ${GEMINI_API_KEY ? 'Active' : 'Offline/Fallback'})`);
 });

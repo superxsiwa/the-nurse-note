@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Note Nurse - สถาปัตยกรรมระบบและแผนภาพ (System Architecture & Diagrams)</title>
+  <title>The Nurse Note - สถาปัตยกรรมระบบและแผนภาพ (System Architecture & Diagrams)</title>
   <!-- Load Mermaid CDN -->
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   <style>
@@ -120,7 +120,7 @@
 <body>
 
   <div class="header">
-    <h1>🏥 The Note Nurse - System Diagrams Viewer</h1>
+    <h1>🏥 The Nurse Note - System Diagrams Viewer</h1>
     <p>เพื่อนคู่คิดและพี่เลี้ยงพยาบาลอัจฉริยะ (แผนภาพสถาปัตยกรรมและการทำงานตามมาตรฐาน PDPA)</p>
     <div class="nav-tabs">
       <button class="tab-btn active" onclick="showTab('usecase')">👥 1. Use Case Diagram</button>
@@ -145,7 +145,7 @@ flowchart LR
     CN["🩺 หัวหน้าเวร/ตึก"]
     AI["🤖 Gemini AI Engine"]
 
-    subgraph Core ["ระบบ The Note Nurse"]
+    subgraph Core ["ระบบ The Nurse Note"]
         UC1(["UC01: เข้าสู่ระบบ / PIN"])
         UC2(["UC02: เลือกรอบเวร & เตียงที่ดูแล"])
         UC3(["UC04: อัดเสียงเล่าอาการ / พิมพ์ส่งเวร"])
@@ -193,7 +193,7 @@ flowchart LR
     <!-- 2. SEQUENCE -->
     <div id="sequence" class="tab-content">
       <h2>🔄 แผนภาพลำดับขั้นตอน (Sequence Diagram)</h2>
-      <p>ขั้นตอนการทำงานหลักของระบบ The Note Nurse</p>
+      <p>ขั้นตอนการทำงานหลักของระบบ The Nurse Note</p>
 
       <h3>กระบวนการเข้าสู่ระบบเครื่องส่วนตัว (BYOD) & ปลดล็อก Quick PIN:</h3>
       <div class="diagram-container">
@@ -229,7 +229,7 @@ sequenceDiagram
 sequenceDiagram
     autonumber
     actor Nurse as 👩‍⚕️ พยาบาลรุ่นน้อง
-    participant UI as 📱 แอป The Note Nurse
+    participant UI as 📱 แอป The Nurse Note
     participant Filter as 🛡️ ตัวกรอง PDPA
     participant AudioAPI as 🤖 Gemini Audio (STT)
     participant LLM as 🤖 Gemini SBAR & CheatSheet
@@ -406,4 +406,3 @@ graph TD
   </script>
 </body>
 </html>
-

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>The Note Nurse - ระบบส่งเวรพยาบาล (.tnn)</title>
+  <title>The Nurse Note - ระบบส่งเวรพยาบาล (.tnn)</title>
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#10b981">
   <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
@@ -36,7 +36,7 @@
           🩺
         </div>
         <div>
-          <h1 class="font-bold text-sm tracking-wide text-white leading-tight">The Note Nurse</h1>
+          <h1 class="font-bold text-sm tracking-wide text-white leading-tight">The Nurse Note</h1>
           <p class="text-[10px] text-slate-400">ระบบบันทึกส่งเวรด้วยเสียง (.tnn)</p>
         </div>
       </div>
@@ -956,7 +956,7 @@
         `• B: ${s.b || '-'}\n` +
         `• A: ${s.a || '-'}\n` +
         `• R: ${s.r || '-'}\n` +
-        `[The Note Nurse]`;
+        `[The Nurse Note]`;
 
       navigator.clipboard.writeText(text).then(() => {
         alert(`คัดลอกโน๊ตของ ${bed} เรียบร้อยแล้ว!`);
@@ -977,7 +977,7 @@
             `• R: ${s.r || '-'}\n`;
         }
       });
-      fullText += `\n==============================\n[บันทึกโดย The Note Nurse]`;
+      fullText += `\n==============================\n[บันทึกโดย The Nurse Note]`;
 
       navigator.clipboard.writeText(fullText).then(() => {
         alert("คัดลอกโน๊ตส่งเวรครบทุกเตียงเรียบร้อยแล้ว!");
@@ -988,7 +988,7 @@
     function downloadTnnFile() {
       const exportObject = {
         version: "2.2",
-        app: "The Note Nurse",
+        app: "The Nurse Note",
         date: activeDate,
         exportedAt: new Date().toISOString(),
         availableBeds: availableBeds,
